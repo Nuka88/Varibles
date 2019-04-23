@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	int minWage = 11;
+	int newMoney = minWage * 9 + minWage * 7;
+	int newMinWage = minWage + 2;
+	int newMoney2 = newMoney + newMinWage * 12 + newMinWage * 8;
+
+	cout << "John worked 9 hours at : $" << minWage << " and he made: $" << minWage * 9 << endl;
+	cout << "John worked 7 hours at : $" << minWage << " and he made; $" << minWage * 7 << endl;
+	cout << "John now has; $" << newMoney << endl;
+	cout << "While john was sick at home watching the news he has seen the minimum wage has gone up too $" << newMinWage << endl;
+	cout << "John went back to work for 8 hours at : $" << newMinWage << " the next day and made: $" << newMinWage * 8 << endl;
+	cout << "John went to work for 12 hours at : $" << newMinWage << " and made: $" << newMinWage * 12 << endl;
+	cout << "Now john has : $" << newMoney2 << " " << "in his bank account." << endl;
+
+return 0;
+}
